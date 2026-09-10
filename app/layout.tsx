@@ -25,12 +25,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "CN_portfolio",
     description: "best on-chain site",
-    url: 'https://my portfolio.com',
+    url: 'https://confidence-portfolio-amber.vercel.app/',
     siteName: 'my-Asssets',
 
     images: [
       {
-        url: '/og-image.png',
+        url: 'https://confidence-portfolio-amber.vercel.app/og-image.png',
         width: 1200,
         height: 630,
       },

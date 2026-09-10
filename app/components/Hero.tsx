@@ -1,6 +1,7 @@
 "use client"
 import Link from "next/link"
 import Image from "next/image"
+import MyImage from "@/assets/image.png"
 import { FacebookIcon } from "./Icons"
 import { WhatsappIcon } from "./Icons"
 import { YoutubeIcon } from "./Icons"
@@ -115,9 +116,9 @@ export default function Hero() {
                     </div>
 
                     {/* ******************************SPIN IMAGE******************* */}
-                    <Image src="/Image.png" alt="spin"
-                        width={1200}
-                        height={90} className="  mt-10 w-auto h-75  md:w-auto md:h-90  rounded-full border
+                    <Image src={MyImage} alt="spin"
+                        
+                         className="  mt-10 w-auto h-75  md:w-auto md:h-90  rounded-full border
     border-t-4 border-b-4 border-lime-400"/>
 
 

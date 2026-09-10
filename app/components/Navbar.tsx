@@ -1,5 +1,6 @@
 "use client"
 import Image from "next/image"
+import MYLogo from "@/assets/log.jpg"
 import { useEffect, useState } from "react"
 // import { usePathname } from "next/navigation";
 import Link from "next/link";
@@ -65,9 +66,10 @@ export default function Navbar() {
 
             <nav className="flex justify-between bg-[#0F0F14] py-3 px-6 items-center ">
 
-                <Image src="/log.jpg" alt="spin-image" className=" "
-                    width={150}
-                    height={100} />
+                <Image src={MYLogo} alt="spin-image" className="h-10 w-auto "
+                    // width={150}
+                    // height={100}
+                     />
 
                 <div className={`${sor.className} flex gap-6 items-center hidden md:flex`}>
                     {links.map((link) => {
