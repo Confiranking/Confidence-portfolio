@@ -98,7 +98,7 @@ export default function Hero() {
                         <p className="text-lg">Click on the social links to send a DM</p>
 
                         {/* ****************************SOCIAL ICONS*********************** */}
-                        <h1 className="flex gap-5  pl-4 items-center ">
+                        <h1 className="flex gap-4  pl-4 items-center ">
                             <a className="  hover:border-green-400  border-2 border-white rounded-full" href="https://www.facebook.com/share/1CwZq7LJG7"> <FacebookIcon className="" /></a>
                             <a href="https://wa.me/2347085892518"
                                 className=" hover:border-green-400 overflow-hidden border-white rounded-full border-2  "><WhatsappIcon /> </a>
@@ -106,10 +106,11 @@ export default function Hero() {
                         </h1>
 
                         {/* *********************BUTTONS****************************************** */}
-                        <div className="flex gap-2 mt-5  md:mt-8 ">
+                        <div className="flex gap-3 mt-5  md:mt-8 ">
 
-                            <button className=" hover:border-white border-2 border-lime-400 px-6 py-2 rounded-xl text-lime-400 font-bold"> <Link href="/">View</Link> </button>
-                            <button className=" hover:border-white border-4 bg-lime-300 px-6 py-2 rounded-lg text-black font-bold"> <Link href="#contact">Hire Me</Link> </button>
+                            <a  href = "/Confidence_tech_Cv.pdf" 
+                            download="Ndubuike-Confidence-Nneka-Cv.pdf" className=" hover:border-white border-2 border-lime-400 px-3 py-2 rounded-xl text-lime-400 font-bold"> Download Cv </a>
+                            <button className=" hover:border-white border-lime-900 border-4 bg-lime-300 px-6 py-2 rounded-lg text-black font-bold"> <Link href="#contact">Hire Me</Link> </button>
                         </div>
 
 
