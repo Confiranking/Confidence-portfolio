@@ -51,7 +51,7 @@ export default function About() {
               </svg>
               </p>
               <figure className="flex flex-col  gap-2 ">
-                <p className="md:text-xl">2025 - senior Fontend Developer</p>
+                <p className="md:text-xl">2025 - senior Frontend Developer</p>
                 <p>Building performative UI and a scalable design system.
                   Focused on accessibility, performance, and a core web development.
                 </p>
