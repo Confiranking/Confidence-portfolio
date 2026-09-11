@@ -55,7 +55,7 @@ export default function Services() {
               </p>
               <figure className="flex flex-col  gap-2 ">
                 <p className="md:text-2xl">UI/UX Implementation</p>
-                <p>pixel-perfect interfaces from design to code, focused on accessiility and usability.
+                <p>pixel-perfect interfaces from design to code, focused on accessibility and usability.
                 </p>
               </figure>
             </li>
@@ -68,7 +68,7 @@ export default function Services() {
               </p>
               <figure className="flex flex-col  gap-2 ">
                 <p className="md:text-xl">Performance Optimization</p>
-                <p>speed audits, SEO, and Optimization to boost Core web vitals & conversios.
+                <p>speed audits, SEO, and Optimization to boost Core web vitals & conversions.
                 </p>
               </figure>
             </li>

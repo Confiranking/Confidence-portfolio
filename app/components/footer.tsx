@@ -27,7 +27,7 @@ export default function Footer() {
 
                     <div className="pl-2 md:self-center  border-b-1 md:border-none">
                         <p className="text-2xl font-bold pb-4">Confidence Nneka </p>
-                        <p >Frontend Developer. Building clean, responsive web</p>
+                        <p className="pt-1">Frontend Developer. Building clean, responsive web.</p>
                         <p>Based in Abia State. Available for full time roles</p>
                     </div>
 
