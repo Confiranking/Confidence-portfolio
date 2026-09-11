@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   description: "We build what's on your mind",
   openGraph: {
     title: "CN_portfolio",
-    description: "best on-chain site",
+    description: "I build what's on your mind",
     url: 'https://confidence-portfolio-amber.vercel.app/',
     siteName: 'my-Asssets',
 

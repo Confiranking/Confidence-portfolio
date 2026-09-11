@@ -25,10 +25,10 @@ export default function Footer() {
                 <div className={`flex flex-col gap-10 md:flex-row md:gap-5  md:justify-between `}>
 
 
-                    <div className="md:self-center  border-b-1 md:border-none">
+                    <div className="pl-2 md:self-center  border-b-1 md:border-none">
                         <p className="text-2xl font-bold pb-4">Confidence Nneka </p>
-                        <p >Frontend Developer. building clean, responsive web</p>
-                        <p>based in Abia State . Available for full time roles</p>
+                        <p >Frontend Developer. Building clean, responsive web</p>
+                        <p>Based in Abia State. Available for full time roles</p>
                     </div>
 
 
@@ -62,8 +62,11 @@ lease%20tell%20us%20how%20we%20can%20be%20of%20service%20to%20you%22"><WhatsappI
 
 
             </section>
-            <div className="px-4 w-full max-w-full bg-whte text-black flex justify-center  pt-8 ">&copy; {new Date().getFullYear()} confidence Nneka. All rights reserved.
-                nnekanneka@gmail.com
+            <div className="px-4 w-full max-w-full bg-whte text-black flex flex-col justify-center  items-center pt-8 ">
+                <p> &copy; {new Date().getFullYear()} Confidence Nneka. All rights reserved.</p>
+                
+                <a href="tel:+2348144931736">Call me: +234 814 493 1736</a>
+            <a href="mailto:nnekanneka477@gmail.com"> Email me: nnekanneka477@gmail.com</a>
             </div>
         </div>
     )

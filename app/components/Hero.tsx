@@ -95,18 +95,18 @@ export default function Hero() {
                         </h2>
                         <h2 className=" md:text-2xl "></h2>
 
-                        <p>Click on the social links to send a DM</p>
+                        <p className="text-lg">Click on the social links to send a DM</p>
 
                         {/* ****************************SOCIAL ICONS*********************** */}
                         <h1 className="flex gap-5  pl-4 items-center ">
-                            <a className="  hover:border-green-400  border-2 border-white rounded-full" href="https://www.facebook.com/share/1CwZq7LJG7/"> <FacebookIcon className="" /></a>
-                            <a href="https://wa.me/2347085892518?text=Hello%2C%20you%27ve%20reached%20Confidence%20Nneka%0APlease%20tell%20us%20how%20we%20can%20be%20of%20service%20to%20you%22"
+                            <a className="  hover:border-green-400  border-2 border-white rounded-full" href="https://www.facebook.com/share/1CwZq7LJG7"> <FacebookIcon className="" /></a>
+                            <a href="https://wa.me/2347085892518"
                                 className=" hover:border-green-400 overflow-hidden border-white rounded-full border-2  "><WhatsappIcon /> </a>
                             <a className=" hover:border-green-400 border-2 border-white rounded-full" href="https://youtube.com/@confidencenneka9755?si=EWzioD6FFJ5mboRH"><YoutubeIcon /></a>
                         </h1>
 
                         {/* *********************BUTTONS****************************************** */}
-                        <div className="flex gap-6 mt-5  md:mt-8 ">
+                        <div className="flex gap-2 mt-5  md:mt-8 ">
 
                             <button className=" hover:border-white border-2 border-lime-400 px-6 py-2 rounded-xl text-lime-400 font-bold"> <Link href="/">View</Link> </button>
                             <button className=" hover:border-white border-4 bg-lime-300 px-6 py-2 rounded-lg text-black font-bold"> <Link href="#contact">Hire Me</Link> </button>

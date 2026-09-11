@@ -23,6 +23,8 @@ export default function About() {
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.9 }}
         viewport={{ once: true }}>
+
+          
         <div className={`${int.className}`}>
 
 
@@ -82,8 +84,8 @@ export default function About() {
               </p>
               <figure className="flex flex-col  gap-2 ">
                 <p className="md:text-xl">2023 - Web Developer . Freelance</p>
-                <p>Built e-commerce stes and landing pages for 15+ clients.
-                  Focused n speed and modern UX.
+                <p>Built e-commerce sites and landing pages for 15+ clients.
+                  Focused on speed and modern UX.
                 </p>
               </figure>
             </li>
