@@ -48,9 +48,8 @@ export default function Footer() {
 
                         <p className="">CONNECT</p>
                         <div className="flex md:flex-row gap-10 md:gap-4 pt-6 justify-center">
-                            <a href="https://www.facebook.com/share/1CwZq7LJG7/"><FacebookIconFooter /></a>
-                            <a href="https://wa.me/2347085892518?text=Hello%2C%20you%27ve%20reached%20Confidence%20Nneka%0AP
-lease%20tell%20us%20how%20we%20can%20be%20of%20service%20to%20you%22"><WhatsappIconFooter /></a>
+                            <a href="https://www.facebook.com/share/1CwZq7LJG7"><FacebookIconFooter /></a>
+                            <a href="https://wa.me/2347085892518"><WhatsappIconFooter /></a>
 
                             <a href="https://youtube.com/@confidencenneka9755?si=EWzioD6FFJ5mboRH"> <YoutubeIconFooter /></a>
                         </div>

@@ -148,8 +148,8 @@ export default function Contact() {
 
                     <p className="mt-10 flex justify-center md:justify-start md:pl-20">or send a message using the links below</p>
                     <h1 className="flex gap-5 justify-center md:justify-start  md:pl-50 items-center pt-5 ">
-                        <a className="  hover:border-black border-2 border-white rounded-full" href="https://www.facebook.com/share/1CwZq7LJG7/"> <FacebookIcon className="" /></a>
-                        <a href="https://wa.me/2347085892518?text=Hello%2C%20you%27ve%20reached%20Confidence%20Nneka%0APlease%20tell%20us%20how%20we%20can%20be%20of%20service%20to%20you%22"
+                        <a className="  hover:border-black border-2 border-white rounded-full" href="https://www.facebook.com/share/1CwZq7LJG7"> <FacebookIcon className="" /></a>
+                        <a href="https://wa.me/2347085892518"
                             className=" hover:border-black overflow-hidden border-white rounded-full border-2  "><WhatsappIcon /> </a>
                         <a className=" hover:border-black border-2 border-white rounded-full" href="https://youtube.com/@confidencenneka9755?si=EWzioD6FFJ5mboRH"><YoutubeIcon /></a>
                     </h1>
