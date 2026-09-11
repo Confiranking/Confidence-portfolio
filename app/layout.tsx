@@ -41,7 +41,7 @@ export const metadata: Metadata = {
 
 
   icons: {
-    icon: '/portfolio-icon.ico'
+    icon: '/ico-fav.ico'
   }
 
 
