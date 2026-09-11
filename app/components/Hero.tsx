@@ -88,7 +88,7 @@ export default function Hero() {
 
                         <p className=" text-2xl text-lime-400 md:text-4xl">FRONTEND DEVELOPER</p>
                         <h4>Welcome, to my portfolio website 😊</h4>
-                        <h2 className=" md:text-2xl ">I build fast, clean responsive web
+                        <h2 className=" md:text-2xl ">I build fast, clean and responsive web
                             experiences using React, Next.Js,  Tailwindcss.</h2>
                         <h2 className=" md:text-lg ">As a frontend developer, i help brands and startups create
                             websites that are fast, impossible to ignore and accessible.
