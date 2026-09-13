@@ -130,7 +130,7 @@ export default function Hero() {
                 <div className="px-8 mt-18  md:mt-10 pb-8 " >
                     <blockquote className="text-sm font-light text-lime-100 pb-5 pl-2">SELECTED PROJECTS</blockquote>
 
-                    <article className="flex flex-col gap-10 md:flex-row md:gap-10">
+                    <article className="flex flex-col gap-10 md:flex-row md:gap-10 md:w-full md:max-w-full md:px-5">
 
 
                         <aside className=" border border-solid-2 border-lime-200 px-4 py-6 rounded-lg flex flex-col gap-3">
