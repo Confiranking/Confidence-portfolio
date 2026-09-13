@@ -130,10 +130,11 @@ export default function Hero() {
                 <div className="px-8 mt-18  md:mt-10 pb-8 " >
                     <blockquote className="text-sm font-light text-lime-100 pb-5 pl-2">SELECTED PROJECTS</blockquote>
 
-                    <article className="flex flex-col gap-10 md:flex-row md:gap-10 md:w-full md:max-w-full md:px-5">
+                    <article className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-6 lg:gap-8 md:w-full md:max-w-full md:px-5 o
+                    flex-nowrap">
 
 
-                        <aside className=" border border-solid-2 border-lime-200 px-4 py-6 rounded-lg flex flex-col gap-3">
+                        <aside className=" border border-solid-2 border-lime-200 px-4 py-6 rounded-lg flex flex-col gap-3 ">
                             <p>01 . Nova Dashboard</p>
 
                             <p className="text-lime-300"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
@@ -146,9 +147,9 @@ export default function Hero() {
                             <h3 className="text-sm">Analytics dashbord for Saas</h3>
 
                             <p>Real-time analytics dashboard for Saas teams.
-                                Track KPIs, growth metrics, and performance with interactive charts and responsie layouts. Designed for clean date visualization and dark-mode UX.</p>
+                                Track KPIs, growth metrics, and performance with interactive charts and responsie layouts. </p>
 
-                            <div className="grid grid-cols-2 md:w-sm gap-4">
+                            <div className="grid grid-cols-2  gap-4">
                                 <button className="w-fit text-lime-200  ">Next.JS</button>
                                 <button className="w-fit text-lime-200  ">TypeScipt</button>
                                 <button className="w-fit text-lime-200  ">TailwindCss</button>
@@ -171,9 +172,9 @@ export default function Hero() {
                             <p>Marketing landing page for an SEO analysis tool.
                                 Focused on conversion, animated UI sections, responsive design, and performance-first frontend.</p>
 
-                            <div className="grid grid-cols-2 md:w-sm gap-4">
+                            <div className="grid grid-cols-2  gap-4">
                                 <button className="w-fit text-lime-200 ">Next.JS</button>
-                                <button className="w-fit text-lime-200 ">Framer Motion</button>
+                                {/* <button className="w-fit text-lime-200 ">Framer Motion</button> */}
                                 <button className="w-fit text-lime-200 ">TailwindCss</button>
                                 <button className="w-fit text-lime-200 ">React</button>
                             </div>
@@ -195,7 +196,7 @@ export default function Hero() {
                             <p>Built a full-featured e-commerce site using Next.Js, tailwindCss for secure payments. 
                                 Focused on responsive design for mobile first experirnce</p>
 
-                            <div className="grid grid-cols-2 md:w-sm gap-4">
+                            <div className="grid grid-cols-2  gap-4">
                                 <button className="w-fit text-lime-200 ">Next.JS</button>
                                 <button className="w-fit text-lime-200 ">TypeScipt</button>
                                 <button className="w-fit text-lime-200 ">TailwindCss</button>
